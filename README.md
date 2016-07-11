@@ -11,8 +11,8 @@ Manifest
 
 **Android 6.0.x** (latest is 6.0.1_r54)
 
-1. Initialize the marshmallow repo	
-`repo init -u https://github.com/krexus/manifest.git -b dr1.6`
+1. Initialize the marshmallow repo's **OMS branch**			
+`repo init -u https://github.com/krexus/manifest.git -b oms`
 
 2. Sync		
 `repo sync`
