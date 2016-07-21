@@ -12,7 +12,7 @@ Manifest
 **Android 6.0.x** (latest is 6.0.1_r52)
 
 1. Initialize the marshmallow repo	
-`repo init -u https://github.com/krexus/manifest.git -b mr2`
+`repo init -u https://github.com/krexusmod/manifest.git -b mr2`
 
 2. Sync		
 `repo sync`
@@ -27,6 +27,8 @@ Manifest
 Credits
 ------------
 Huge thanks to:  
+[George G.](https://github.com/KreAch3R)		
+[Ezio Lacandia Bijelkic](https://github.com/ezio84)		
 [CallMeAldy](https://github.com/CallMeAldy)		
 [Sykopompos](https://github.com/Sykopompos)		
 [rascarlo](https://plus.google.com/+CarloDiNuccio/)		
