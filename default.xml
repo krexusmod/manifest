@@ -24,6 +24,8 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/asus/flo" name="device_asus_flo" groups="device,flo" remote="krexusmod" revision="mr2" />		
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -39,6 +41,8 @@
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead" remote="krexusmod" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="krexusmod" revision="mr2" />
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -441,4 +445,5 @@
   <project path="vendor/krexus" name="vendor_krexus" remote="krexusmod" revision="oms" />
   <project path="vendor/lge" name="vendor_lge" remote="krexusmod" revision="mm" />
   <project path="vendor/huawei" name="vendor_huawei" remote="krexusmod" revision="mm" />
+  <project path="vendor/asus" name="vendor_asus" remote="krexusmod" revision="mm" />
 </manifest>
